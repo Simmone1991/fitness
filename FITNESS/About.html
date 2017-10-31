@@ -18,7 +18,7 @@
 	
 	<!--Use the nav area to add hyperlinks to other pages within the website-->
 	<nav>
-		<nav>
+		
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="about.html">About Us</a></li>
@@ -27,11 +27,19 @@
 			<li><a href="contact.html">Contact us</a></li>
 		</ul> 
 	</nav>
-	</nav>
+	
 	
 	<!--Use the main area to add the main content of the page -->
 	<main>
 	
+		<div class="video">
+			<video controls poster="Images/fitness1.png">
+				<source src="media/ffc_vid.mp4" type="video/mp4">
+				<source src="media/ffc_vid.ogg" type="video/ogg">
+				<source src="media/ffc_vid.webm" type="video/webm">
+				<p>Your browser does not support HTML video</p>
+			</video>
+		</div>
 		<section>
 			<h1>Weights</h1>
 			<img class="equip" src="Images/equipment1.jpg" alt="Weight Equipment">
@@ -85,9 +93,19 @@
 	</main>
 	
 	<!--Use the footer area to add the footer content -->
+	
 	<footer>
-		&copy; Copyright 2017. All Rights Reserved.<br/>
-		<a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a>
+		<div id="copyright">
+			<p>&copy; Copyright 2017. All Rights Reserved.<br/>
+			<a href="mailto:forwardfitness@club.net">
+		forwardfitness@club.net</a></p>
+		</div>
+		
+		<div id="social">
+			<p>Connect with us:</P>
+			<p><a href="https://www.facebook.com/fwdfitclub"><img src="images/fblogo.png" alt="Facebook logo"></a>
+			<a href="https://www.twitter.com/fwdfitclub"><img src="images/twitterlogo.png" alt="Twitter logo"></a></p>
+		</div>
 	</footer>
 	
 	</div>
